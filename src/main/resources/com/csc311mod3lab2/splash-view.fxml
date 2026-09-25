@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<StackPane fx:id="root" styleClass="splash-root" stylesheets="@splash.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.csc311mod3lab2.SplashController">
+    <VBox alignment="CENTER" spacing="28">
+        <ImageView fitHeight="180" fitWidth="180" preserveRatio="true">
+            <Image url="@FarmingdaleLOGO.png" />
+        </ImageView>
+        <StackPane maxWidth="160" styleClass="splash-bar">
+            <Rectangle fx:id="barFill" height="2" styleClass="splash-bar-fill" width="0" />
+        </StackPane>
+    </VBox>
+</StackPane>

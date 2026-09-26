@@ -1,0 +1,33 @@
+
+.auth-root {
+    -fx-background-color: #0b132b;
+}
+
+
+.auth-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.auth-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #a0a5b5;
+}
+
+
+.text-input {
+    -fx-pref-height: 36px;
+    -fx-background-color: #1a2238;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #70788d;
+    -fx-background-radius: 4px;
+}
+
+.btn-primary {
+    -fx-pref-height: 38px;
+    -fx-background-color: #c89b3c;
+    -fx-text-fill: #0b132b;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4px;
+}
